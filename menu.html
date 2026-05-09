@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu - Bently’s African Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+<header>
+    <h1>Menu</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<h2>Main Dishes</h2>
+<ul>
+    <li>Jollof Rice - $12</li>
+    <li>Suya - $10</li>
+    <li>Fufu & Soup - $15</li>
+</ul>
+
+<h2>Drinks</h2>
+<ul>
+    <li>Zobo - $4</li>
+    <li>Chapman - $5</li>
+</ul>
+
+<h2>Build Your Meal</h2>
+<p>Enter a number from 1 to 5 to see that many menu items.</p>
+
+<input type="number" id="dishNumber" min="1" max="5" placeholder="Enter number">
+<button onclick="showDishes()">Show Dishes</button>
+
+<p id="output"></p>
+
+<footer>
+    <p>Visit us today!</p>
+</footer>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
